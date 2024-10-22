@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrap{
+    height: 100vh;
+    background: linear-gradient(231deg, rgba(22, 6, 40, 1)0%, rgba(52, 28, 79, 1) 50%, rgba(88, 7, 125, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    width: 400px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+.try{
+    margin-top: 10px;
+    font-size: large;
+}
+.label{
+margin-top: 20px;
+font-size: x-large;
+}
+.input{
+    margin-top:10px ;
+}
+.input{
+    margin-bottom: 10px;
+}
+#sub{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    background-color: #008080;
+    border: none;
+    color: aliceblue;
+    font-size: 17px;
+    border-radius: 20px;
+
+}
+#sub:hover{
+    cursor: pointer;
+    background-color: #006666;
+}
+#sub:active{
+    transform: scale(0.95);
+}
+#preguess, #guessrem{
+    margin-top: 10px;
+    font-size: larger;
+}
+#newbut{
+    
+    text-align: center;
+    background-color: #008080;
+    border: none;
+    color: aliceblue;
+    font-size: 17px;
+    border-radius: 20px;
+    margin-top: 10px;
+
+}
+#newbut:hover{
+    cursor: pointer;
+    background-color: #006666;
+}
+#newbut:active{
+    transform: scale(0.95);
+}
+.end{
+    margin-top: 10px;
+    font-size: larger;
+    color: red;
+    text-align: center;
+}
